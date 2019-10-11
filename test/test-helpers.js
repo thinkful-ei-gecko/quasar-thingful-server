@@ -8,7 +8,7 @@ function makeUsersArray() {
       full_name: 'Test user 1',
       nickname: 'TU1',
       password: 'password',
-      date_created: '2029-01-22T16:28:32.615Z',
+      date_created: new Date('2029-01-22T16:28:32.615Z'),
     },
     {
       id: 2,
@@ -16,7 +16,7 @@ function makeUsersArray() {
       full_name: 'Test user 2',
       nickname: 'TU2',
       password: 'password',
-      date_created: '2029-01-22T16:28:32.615Z',
+      date_created: new Date('2029-01-22T16:28:32.615Z'),
     },
     {
       id: 3,
@@ -24,7 +24,7 @@ function makeUsersArray() {
       full_name: 'Test user 3',
       nickname: 'TU3',
       password: 'password',
-      date_created: '2029-01-22T16:28:32.615Z',
+      date_created: new Date('2029-01-22T16:28:32.615Z'),
     },
     {
       id: 4,
@@ -32,7 +32,7 @@ function makeUsersArray() {
       full_name: 'Test user 4',
       nickname: 'TU4',
       password: 'password',
-      date_created: '2029-01-22T16:28:32.615Z',
+      date_created: new Date('2029-01-22T16:28:32.615Z'),
     },
   ]
 }
@@ -44,7 +44,7 @@ function makeThingsArray(users) {
       title: 'First test thing!',
       image: 'http://placehold.it/500x500',
       user_id: users[0].id,
-      date_created: '2029-01-22T16:28:32.615Z',
+      date_created: new Date('2029-01-22T16:28:32.615Z'),
       content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus consequuntur deserunt commodi, nobis qui inventore corrupti iusto aliquid debitis unde non.Adipisci, pariatur.Molestiae, libero esse hic adipisci autem neque ?',
     },
     {
@@ -52,7 +52,7 @@ function makeThingsArray(users) {
       title: 'Second test thing!',
       image: 'http://placehold.it/500x500',
       user_id: users[1].id,
-      date_created: '2029-01-22T16:28:32.615Z',
+      date_created: new Date('2029-01-22T16:28:32.615Z'),
       content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus consequuntur deserunt commodi, nobis qui inventore corrupti iusto aliquid debitis unde non.Adipisci, pariatur.Molestiae, libero esse hic adipisci autem neque ?',
     },
     {
@@ -60,7 +60,7 @@ function makeThingsArray(users) {
       title: 'Third test thing!',
       image: 'http://placehold.it/500x500',
       user_id: users[2].id,
-      date_created: '2029-01-22T16:28:32.615Z',
+      date_created: new Date('2029-01-22T16:28:32.615Z'),
       content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus consequuntur deserunt commodi, nobis qui inventore corrupti iusto aliquid debitis unde non.Adipisci, pariatur.Molestiae, libero esse hic adipisci autem neque ?',
     },
     {
@@ -68,7 +68,7 @@ function makeThingsArray(users) {
       title: 'Fourth test thing!',
       image: 'http://placehold.it/500x500',
       user_id: users[3].id,
-      date_created: '2029-01-22T16:28:32.615Z',
+      date_created: new Date('2029-01-22T16:28:32.615Z'),
       content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus consequuntur deserunt commodi, nobis qui inventore corrupti iusto aliquid debitis unde non.Adipisci, pariatur.Molestiae, libero esse hic adipisci autem neque ?',
     },
   ]
@@ -82,7 +82,7 @@ function makeReviewsArray(users, things) {
       text: 'First test review!',
       thing_id: things[0].id,
       user_id: users[0].id,
-      date_created: '2029-01-22T16:28:32.615Z',
+      date_created: new Date('2029-01-22T16:28:32.615Z'),
     },
     {
       id: 2,
@@ -90,7 +90,7 @@ function makeReviewsArray(users, things) {
       text: 'Second test review!',
       thing_id: things[0].id,
       user_id: users[1].id,
-      date_created: '2029-01-22T16:28:32.615Z',
+      date_created: new Date('2029-01-22T16:28:32.615Z'),
     },
     {
       id: 3,
@@ -98,7 +98,7 @@ function makeReviewsArray(users, things) {
       text: 'Third test review!',
       thing_id: things[0].id,
       user_id: users[2].id,
-      date_created: '2029-01-22T16:28:32.615Z',
+      date_created: new Date('2029-01-22T16:28:32.615Z'),
     },
     {
       id: 4,
@@ -106,7 +106,7 @@ function makeReviewsArray(users, things) {
       text: 'Fourth test review!',
       thing_id: things[0].id,
       user_id: users[3].id,
-      date_created: '2029-01-22T16:28:32.615Z',
+      date_created: new Date('2029-01-22T16:28:32.615Z'),
     },
     {
       id: 5,
@@ -114,7 +114,7 @@ function makeReviewsArray(users, things) {
       text: 'Fifth test review!',
       thing_id: things[things.length - 1].id,
       user_id: users[0].id,
-      date_created: '2029-01-22T16:28:32.615Z',
+      date_created: new Date('2029-01-22T16:28:32.615Z'),
     },
     {
       id: 6,
@@ -122,7 +122,7 @@ function makeReviewsArray(users, things) {
       text: 'Sixth test review!',
       thing_id: things[things.length - 1].id,
       user_id: users[2].id,
-      date_created: '2029-01-22T16:28:32.615Z',
+      date_created: new Date('2029-01-22T16:28:32.615Z'),
     },
     {
       id: 7,
@@ -130,7 +130,7 @@ function makeReviewsArray(users, things) {
       text: 'Seventh test review!',
       thing_id: things[3].id,
       user_id: users[0].id,
-      date_created: '2029-01-22T16:28:32.615Z',
+      date_created: new Date('2029-01-22T16:28:32.615Z'),
     },
   ];
 }
@@ -145,12 +145,17 @@ function makeExpectedThing(users, thing, reviews=[]) {
   const number_of_reviews = thingReviews.length
   const average_review_rating = calculateAverageReviewRating(thingReviews)
 
+  const d = 
+    typeof thing.date_created === 'string'
+    ? thing.date_created
+    : thing.date_created.toISOString();
+
   return {
     id: thing.id,
     image: thing.image,
     title: thing.title,
     content: thing.content,
-    date_created: thing.date_created,
+    date_created: d,
     number_of_reviews,
     average_review_rating,
     user: {
@@ -158,7 +163,7 @@ function makeExpectedThing(users, thing, reviews=[]) {
       user_name: user.user_name,
       full_name: user.full_name,
       nickname: user.nickname,
-      date_created: user.date_created,
+      date_created: user.date_created.toISOString(),
     },
   }
 }
@@ -183,13 +188,13 @@ function makeExpectedThingReviews(users, thingId, reviews) {
       id: review.id,
       text: review.text,
       rating: review.rating,
-      date_created: review.date_created,
+      date_created: review.date_created.toISOString(),
       user: {
         id: reviewUser.id,
         user_name: reviewUser.user_name,
         full_name: reviewUser.full_name,
         nickname: reviewUser.nickname,
-        date_created: reviewUser.date_created,
+        date_created: reviewUser.date_created.toISOString(),
       }
     }
   })
@@ -253,25 +258,13 @@ function seedUsers(db, users) {
     .then(() => 
       // update the auto sequence to stay in sync
       db.raw(
-        `SELECT setval('thingful_users_id_seq', ?)`
+        `SELECT setval('thingful_users_id_seq', ?)`,
         [users[users.length - 1].id],
       )
     )
 }
 
 function seedThingsTables(db, users, things, reviews=[]) {
-/*   return db
-    .into('thingful_users')
-    .insert(users)
-    .then(() =>
-      db
-        .into('thingful_things')
-        .insert(things)
-    )
-    .then(() =>
-      reviews.length && db.into('thingful_reviews').insert(reviews)
-    ) */
-  
     return db.transaction(async trx => {
       await seedUsers(trx, users)
       await trx.into('thingful_things').insert(things)
@@ -294,9 +287,7 @@ function seedThingsTables(db, users, things, reviews=[]) {
 }
 
 function seedMaliciousThing(db, user, thing) {
-  return db
-    .into('thingful_users')
-    .insert([user])
+  return seedUsers(db, [user])
     .then(() =>
       db
         .into('thingful_things')
